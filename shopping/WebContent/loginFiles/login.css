@@ -1,0 +1,83 @@
+/* CSS Document-login */
+.bgc-login{background:#f9f9f9}
+.bgc-login .in{width:1000px}
+.box-login{background:#f2f2f2;padding:6px;width:988px;margin:0 auto;position:relative}
+.box-login .tabBd{background:#fff;border:1px solid #ebebeb;padding:20px 0 30px 26px}
+.box-login .left{border-right:1px solid #ccc;padding-right:20px;float:left;display:inline;width:540px}
+.box-login .h-reg .left{width:560px;min-height:330px;padding-right:30px}
+.box-login .h-reg .right{width:310px}
+.box-login .right{padding-left:28px;float:left;display:inline;width:360px}
+.box-login h2{font:500 18px/24px 'microsoft yahei';color:#000;margin-bottom:10px}
+.box-login h2.t-reg{font-size:16px}
+.box-login h2.t-reg span{font-size:18px;color:#f60;padding:0 2px}
+.box-login .txt-reg{text-align:right;margin:-30px 25px 20px 0}
+.box-login .txt-reg a{font-size:14px; color:#f40;text-decoration:underline}
+.lg-login,.sp-item .msg-box i,.btn-login,.btn-reg,.btn-confirm,.btn-green,.four-info li,.login-tab .tabHd li a,.reg-tab .tabHd li a,a.btn-msg,.login-msg .disabled,.lg-reg{background-image:url(http://images.shopin.net/s/images/spr_login.png);background-repeat:no-repeat}
+.lg-login,.lg-reg{width:289px;height:59px;margin:12px}
+.lg-login a,.lg-reg a{display:block;outline:none;text-indent:-9999em;width:289px;height:59px}
+.lg-login{background-position:0 0}
+.sp-item{padding:7px 0}
+#elogin_form .sp-item{padding-top:9px;padding-bottom:9px}
+.sp-label{display:inline;float:left;height:28px;line-height:28px;text-align:right;width:95px}
+#elogin_form .sp-label{line-height:32px;height:32px}
+.sp-label i{color:#f00;font-family:宋体}
+.i-text{border:1px solid #d1d1d1;color:#333;font-size:14px;height:25px;line-height:25px;padding:0 2px;width:215px;margin-right:5px}
+.w-text{width:92px}
+.sp-item .msg-box{display:inline-block;position:relative;left:2px;vertical-align:middle;width:200px;color:#888}
+.sp-item .msg-box i{background-position:-380px -115px;display:inline;float:left;height:10px;width:13px;margin:4px 0 0}
+.sp-item .t-code{color:#005aa0}
+.sp-item a:hover.t-code{color:#e94609}
+#verifyCodeImg{margin-right:5px}
+.form-meta{padding-left:95px}
+.form-meta .checkbox{margin:3px 3px 0 0}
+.form-meta .checkbox,.form-meta label{float:left}
+.form-meta label{margin-right:20px}
+.form-meta a{text-decoration:underline}
+.btn-login,.btn-confirm,.btn-reg{width:225px;height:41px;border:none;cursor:pointer}
+.btn-login{background-position:0 -125px}
+.btn-login:hover{background-position:0 -166px}
+.btn-confirm{background-position:0 -289px}
+.btn-confirm:hover{background-position:0 -330px}
+.btn-reg{background-position:0 -207px}
+.btn-reg:hover{background-position:0 -248px}
+.btn-green{background-position:-235px -125px;width:135px;height:40px;border:none;cursor:pointer;font:500 14px/24px '宋体';color:#fff;padding:0 0 6px}
+.btn-green:hover{background-position:-235px -165px}
+.coagent dt{font-size:14px;color:#000;}
+.coagent dd{margin:5px 8px 0 0;display:inline;float:left;}
+.coagent dd a{display:block;width:190px;height:31px;text-indent:-9999em;background:url(http://images.shopin.net/2014/images/login_fast.png) no-repeat}
+.coagent dd#qqLoginBtn a{background-position:0 -2px}
+.coagent dd a.xl-icon{background-position:0 -42px}
+.coagent dd a.zfb-icon{background-position:0 -82px}
+.coagent dd a.icon-139{background-position:0 -122px}
+.coagent dd a.icon-weixin{background-position:0 -162px}
+/*.four-info{margin-top:35px}
+.four-info li{float:left;display:inline;width:170px;height:38px;text-indent:-9999em;margin:0 10px 10px 0}
+.four-info .icon1{background-position:-235px -302px}
+.four-info .icon2{background-position:-405px -302px}
+.four-info .icon3{background-position:-235px -340px}
+.four-info .icon4{background-position:-405px -340px}*/
+/*tab*/
+.login-tab .tabHd li a{background-position:-235px -206px;width:21px;height:80px;position:absolute;top:14px;left:-35px;font:600 14px/16px '宋体';color:#fff;text-align:center;padding:15px 6px 0 14px}
+.login-tab .tabHd li.cur a{background-position:-278px -206px}
+.login-tab .tabHd li.tab2 a{top:112px}
+.login-msg{padding:20px 30px 15px}
+.login-msg h2{font:500 14px/22px 'microsoft yahei';color:#f60;margin-bottom:8px}
+.login-msg h2 span{color:#005aa0;font-size:16px}
+.login-msg .sp-item{padding:4px 0}
+.login-msg .form-meta{padding-top:10px;padding-left:48px}
+.login-msg .sp-item .sp-label{width:auto;font-weight:bold}
+.login-msg .i-text{background:#fff7ef;border:1px solid #ffcbb4}
+#elogin_form .i-text{height:32px;line-height:32px}
+.login-msg .sp-item .msg-box{padding:5px 0 0 46px;display:block}
+a.btn-msg{background-position:-330px -206px;width:115px;height:26px;border:none;cursor:pointer;color:#000;display:inline-block;text-align:center;line-height:26px;}
+.login-msg .disabled{background-position:-330px -233px;cursor:default;color:#999}
+
+/*reg*/
+.lg-reg{background-position:0 -59px}
+.reg-tab .tabHd li a{background-position:-531px 0;width:21px;height:95px;position:absolute;top:14px;left:-35px;font:600 14px/16px '宋体';color:#fff;text-align:center;padding:15px 6px 0 14px}
+.reg-tab .tabHd li.cur a{background-position:-489px 0}
+.reg-tab .tabHd li.tab2 a{top:127px;padding:23px 6px 0 14px;height:88px}
+/*.h-reg{height:420px}*/
+.mob-item{background:#fff7e9;border:2px solid #ffcb93;padding:10px 5px;margin:5px 0}
+.mob-item .sp-label{font-weight:bold;width:98px}
+.mob-item .i-text{background:#ffcb93;border-color:#fff}

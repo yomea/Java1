@@ -1,0 +1,211 @@
+/* 布局 */
+#container{padding:0 0 15px}
+#container .sidebar{width:290px;/*background:url(http://images.shopin.net/s/images/2014.jpg) 0 bottom no-repeat;padding:0 0 120px;*/}
+#container .main {overflow:hidden;_width:707px;}
+#container .main .onSale{width:700px}
+.SMsidebar {width:190px}
+#container .SMmain {width:800px;float:left; overflow:hidden;}
+/*面包屑导航*/
+.breadCrumbs{height:32px;line-height:32px;padding:2px 0;color:#888;font-family:宋体}
+.breadCrumbs a{color:#888}
+.breadCrumbs a:hover{color:#ff4600}
+.crumbs a{margin:0 5px}
+.highlight{color:#f00}
+.news-content{padding:0 15px 15px;font-size:14px;font-family:microsoft yahei;line-height:25px;min-height:500px}
+.news-content h2{font-size:20px;text-align:center;line-height:40px;color:#333;font-family:microsoft yahei;border-bottom:1px solid #ddd;margin:0 0 15px 0}
+.news-content p{margin:0 15px 15px;text-align:justify;}
+/*频道页*/
+.ladyCate .title h3, .newWeeky .title h3{font:27px/32px 'microsoft yahei';color:#e94609}
+.ladyCate .title ul.fl{margin:16px 0 0 10px}
+.ladyCate .title ul.fl li{float:left;margin-left:-1px;zomo:1;height:14px;line-height:14px;padding:0 10px;border-left:1px solid #e94609}
+.ladyCate .title ul.fl li a{color:#e94609}
+.ladyCate dl{float:left;width:165px;margin-right:2px}
+.ladyCate dd{min-height:110px;_height:110px;border-right:1px solid #eff1e8;padding-top:10px}
+.ladyCate dd ul{padding-bottom:10px}
+.ladyCate dd li{float:left;width:67px;padding-left:15px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;line-height:20px;background:url(http://images.shopin.net/s/images/point.gif) no-repeat 7px center}
+.channel-list{margin-right:-2px;padding-top:15px}
+.channel-list dt{height:90px}
+.channel-ad{background:#f5f5f5;padding:10px 5px 5px 10px;height:252px;overflow:hidden}
+.channel-ad .left{width:264px}
+.channel-ad .right{width:720px}
+.channel-ad .left,.channel-ad .right,.channel-ad .right li{float:left}
+.channel-ad li{margin-bottom:5px;margin-right:3px}
+.channel-ad li img {border:solid 1px #ddd}
+.channel_women .channel-more{position:absolute;right:10px}
+.channel-more{background-position:-247px -566px;width:53px;height:22px;float:right;display:inline-block;font-size:12px;font-weight:normal;line-height:22px;padding-left:18px;color:#999;margin-top:5px}/*女人馆*/
+.women_cate{background:#f6f6f6;padding:5px;margin-top:15px;overflow:hidden}
+.women_cate ul{background:#fff;padding:2px;border-right:1px dotted #e5e5e5;width:160px;float:left;}
+.women_cate ul li{background:url(http://images.shopin.net/s/images/bgi_women_cate.gif) 0 0 repeat-x;padding:6px 2px 10px 10px;min-height:102px;_height:102px;zoom:1;overflow:hidden}
+.women_cate ul li a{line-height:23px;color:#666}
+.women_cate h4{background:url(http://images.shopin.net/s/images/line_women_cate.gif) bottom center no-repeat;margin-bottom:4px;text-align:center;color:#f36;line-height:30px}
+.women_cate h4 span{background:url(http://images.shopin.net/s/images/sorticon.png) no-repeat;padding:5px 13px 5px 25px;_line-height:20px;overflow:hidden}
+.women_cate h4 .tit1{background-position: -5px -187px}
+.women_cate h4 .tit2{background-position: -2px -220px;padding-left:28px}
+.women_cate h4 .tit3{background-position: 0 -256px;padding:5px 5px 5px 35px}
+.women_cate h4 .tit4{background-position: -5px -290px}
+.women_cate h4 .tit5{background-position: 0 -325px;padding-left:32px}
+.women_cate h4 .tit6{background-position: -5px -358px}
+.women_cate a{display:inline;float:left;width:45%;padding-left:5%;background:url(http://images.shopin.net/s/images/point.gif) 0 center no-repeat}
+.women_cate a:hover{color:#f36}
+.recom_women{margin-top:15px}
+.recom_women h2{background:#f6578d;text-align:center;color:#fff;font-size:18px;height:29px;width:192px}
+.recom_women ul{float:left}
+.hot_women{margin-top:28px}
+.hot_women .title{height:15px;background:#eff0e8;position:relative}
+.hot_women .title h2{background-position:-57px -577px;position:absolute;top:-8px;left:40.5%;width:186px;height:31px;text-align:center;color:#fff;font-size:20px;letter-spacing:4px;}
+.hot_women .title h2 span{padding-left:35px;background-position:0 -235px}
+.hot_women .title h2 u{color:#ff3;letter-spacing:0;font-size:17px;padding-left:5px}
+.hot_women .tabHd li{border-bottom:5px solid #e2e2e2;width:166px;float:left;text-align:center;color:#75b4b7;font-size:18px;font-weight:bold;line-height:30px;position:relative;margin:0;padding-bottom:4px}
+.hot_women .tabHd li a{color:#aaa;}
+.hot_women .tabHd li.cur a{color:#75b4b7;}
+.hot_women .tabHd li.cur i{background-position:0 -124px;position:absolute;top:29px;left:47.4%;width:11px;height:5px;overflow:hidden}
+.hot_women .tabHd .cur{border-color:#8dc6d1;}
+.hot_women .tabHd li.last{padding-left:2px}
+.hot_women .tabBd{margin-top:9px;border-right:1px solid #e2e2e2;width:1001px}
+.hot_women .tabBd ul,.women_list ul{width:199px;border-left:1px solid #e2e2e2;float:left;text-align:center;padding:8px 0}
+.channel_women{margin-top:20px;zoom:1}
+.channel_women .title{border-top:3px solid #f6578d;position:relative;z-index:9}
+.channel_women .title h2{background:#f9f9f9;border-top:2px solid #fff;padding:3px 3px 3px 10px;color:#f6578d;font-size:24px;font-weight:normal;line-height:33px}
+.channel_women .title h2 em{background:#f6578d;color:#fff;padding:0 4px;margin:0 8px 0 -7px}
+.women_list .ad{width:595px;padding:6px 5px 3px 0;border:none}
+.women_list{border-right:1px solid #e2e2e2;width:1000px}
+.women_list ul{border-top:1px solid #e2e2e2;margin-top:-1px;zoom:1}
+.channel_women .logo_list{width:248px;float:left;border-left:1px solid #e4e4e4;border-top:1px solid #e4e4e4}
+.channel_women .logo_list li{float:left;width:123px;height:83px;overflow:hidden;border-right:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4}
+.channel_women .ad_logo{background:#fff;padding-bottom:12px;position:relative;margin-top:5px}
+.channel_women .logo_list li img { width:123px; height:83px; background:url(http://images.shopin.net/s/images/load.gif) no-repeat center center}
+.hot_women .hot_ad{margin-left:-4px;zoom:1}
+.hot_women .hot_ad li{float:left;margin-left:3px;display:inline}
+/*运动户外*/
+.channel_ad h2,.channel_sports h2,.channel_men h2,.channel_shoes h2,.channel_sports .ad dt,.channel_men .ad dt,.sports_list .tabHd li,.shoes_list .tabHd li,.recom_women h2,.hot_women .title h2,.hot_women .tabHd,.channel_women .title h2{font-family:microsoft yahei}
+.channel_ad h2{color:#ea4609;font-size:19px;background-position:5px -190px;line-height:33px;padding-left:32px;border-bottom:2px solid #ea4609}
+.channel_ad h2 .en,.channel_sports h2 .en,.channel_men h2 .en{font-size:15px;font-weight:normal;padding-left:6px}
+.list_ad{margin-left:-1px;zoom:1}
+.list_ad ul{float:left}
+.list_ad ul li{border-left:1px solid #fff;border-bottom:1px solid #fff}
+.list_ad a:hover img,.logo_list a:hover img,.pro_list a:hover img,.recom_women a:hover img,.hot_women .item a:hover img,.ad_logo .fl a:hover img,.women_list a:hover img,.shoes_list .item a:hover img,.sports_list .item a:hover img,.channel-ad a:hover img{opacity:0.8;_filter:alpha(opacity=80)}
+.channel_sports{padding-bottom:5px;margin-top:17px}
+.channel_sports h2{background-position:-284px -391px;cursor:default}
+.channel_sports h2,.channel_men h2{font-size:18px;color:#6a6a6a;line-height:35px;height:40px;_height:39px;overflow:hidden;zoom:1}
+.channel_sports h2 em,.channel_men h2 em{font-size:29px;padding:0 25px 0 5px;color:#fff}
+.channel_sports .box{border:2px solid #dadada}
+.channel_sports .ad{width:266px;zoom:1}
+.channel_sports .ad dt,.channel_men .ad dt{color:#fff;width:178px;font-size:21px;position:absolute;bottom:31px;margin:0 45px;line-height:24px;font-weight:bold;text-align:center;z-index:2}
+.channel_sports .ad dd,.channel_men .ad dd{background:#00b4ff;opacity:0.7;filter: alpha(opacity=70);position:absolute;bottom:20px;margin:0 20px;width:226px;height:68px}
+.channel_sports .ad a:hover dd,.channel_men .ad a:hover dd{opacity:0.85;filter: alpha(opacity=85)}
+.channel_sports .ad dd.bgc1{background:#00b4ff}
+.channel_sports .ad dd.bgc2{background:#ea4609}
+.channel_sports .ad dd.bgc3{background:#009c04}
+.sports_list{float:left;width:724px;border-left:1px solid #e4e4e4;zoom:1}
+.sports_list .tabHd li{background:#e4e4e4;border-left:1px solid #fff;text-align:center;float:left;font-size:15px;font-weight:bold;line-height:27px;width:180px;height:29px;position:relative}
+.sports_list .tabHd li a{color:#6a6a6a}
+.sports_list .tabHd li.cur{background:#8dc6d1}
+.sports_list .tabHd li.cur i{position:absolute;top:29px;left:50%;margin-left:-5px;background-position:0 -116px;width:11px;height:5px;overflow:hidden}
+.sports_list .tabHd li.cur a{color:#fff}
+.sports_list .item ul{float:left;border-right:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;width:180px;padding-bottom:2px;text-align:center}
+.sports_list .item ul li img { wid178px; height:178px; background:url(http://images.shopin.net/s/images/load.gif) no-repeat center center}
+.sports_list .item a,.shoes_list .item a,.channel_men .pro_list a,.channel_shoes .pro_list a,.hot_women .tabBd ul a,.women_list ul a{color:#848484}
+.sports_list .item a:hover,.shoes_list .item a:hover,.channel_men .pro_list a:hover,.channel_shoes .pro_list a:hover,.hot_women .tabBd ul a:hover,.women_list ul a:hover{color:#ea4609}
+.sports_list .item del,.shoes_list .item del,.channel_men .pro_list del,.channel_shoes .pro_list del,.hot_women .tabBd del,.women_list ul del{color:#999;padding:0 3px}
+.sports_list .item strong,.shoes_list .item strong,.channel_men .pro_list strong,.channel_shoes .pro_list strong,.hot_women .tabBd strong,.women_list ul strong{color:#d70a1e;padding:0 3px}
+.channel_sports .logo_list{padding:7px;float:left;display:block;zoom:1}
+.channel_sports .logo_list li{float:left;margin:5px 7px;display:inline;border:1px solid #e9e9e9;background:#f9f9f9}
+.channel_sports .logo_list li img { width:124px; height:78px; background:url(http://images.shopin.net/s/images/load.gif) no-repeat center center}
+/*男人馆*/
+.men_ad .logo_list li{margin-bottom:8px}
+.men_ad .logo_list .fr{float:left;display:inline;width:700px}
+.men_ad .logo_list .fr li{float:left;width:124px;height:78px;margin:0 0 6px 12px;display:inline}
+.men_ad .logo_list .fr li a,.channel_men .logo_list li a,.channel_shoes .logo_list li a{border:1px solid #e9e9e9;background:#f9f9f9;display:block;width:124px;height:78px}
+.channel_men .logo_list li a,.channel_shoes .logo_list li a{height:75px}
+.men_ad .logo_list .fr li img { width:124px; height:78px; background:url(http://images.shopin.net/s/images/load.gif) no-repeat center center}
+.men_ad .logo_list .fr li a{padding:1px}
+.men_ad .logo_list .fr li a:hover,.channel_men .logo_list li a:hover,.channel_men .pro_list li a:hover img,.channel_shoes .logo_list li a:hover{border:1px solid #d1d1d1}
+.channel_men{padding:4px 0;width:1001px}
+.channel_men h2{background-position:-284px -431px;border-bottom:3px solid #75b4b7;height:37px;cursor:default}
+.channel_men h2 em{padding:0 30px 0 8px}
+.channel_men .logo_list,.channel_shoes .logo_list{width:265px;float:left;overflow:hidden}
+.channel_men .logo_list li,.channel_shoes .logo_list li{margin-right:6px;margin-top:6px;float:left;width:126px;height:77px;overflow:hidden}
+.channel_men .logo_list li img,.channel_shoes .logo_list li img{width:124px;height:75px; background:url(http://images.shopin.net/s/images/load.gif) no-repeat center center}
+/*.channel_men .logo_list li a,.channel_shoes .logo_list li a{padding:2px 0}*/
+.channel_men .pro_list{width:740px;zoom:1}
+.channel_men .pro_list,.channel_men .pro_list li,.channel_shoes .pro_list,.channel_shoes .pro_list li{float:left}
+.channel_men .pro_list,.channel_shoes .pro_list{margin-left:-5px;float:left;zoom:1}
+.channel_men .pro_list li,.channel_shoes .pro_list li{margin-left:5px;margin-top:6px;display:inline;width:180px}
+.channel_men .pro_list li img,.channel_shoes .pro_list li img{border:1px solid #e4e4e4}
+.channel_men .pro_list li img { width:180px; height:180px; background:url(http://images.shopin.net/s/images/load.gif) no-repeat center center}
+.pro_list h3,.shoes_list h3,.hot_women h3,.women_list h3,.sports_list h3{padding:1px 5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sports_list h3{padding:0 5px}
+.pro_list p,.shoes_list p,.hot_women p,.women_list p,.sports_list p{height:19px;overflow:hidden}
+.pro_list img,.shoes_list img,.hot_women img,.women_list img,.sports_list img{margin-bottom:3px}
+.hot_women img { width:190px; height:190px; background:url(http://images.shopin.net/s/images/load.gif) no-repeat center center}
+.channel_men .ad{float:left;position:relative;margin-top:6px;_margin-top:-6px;margin-left:10px}
+/*鞋*/
+.shoes_list .tabHd{border-bottom:1px solid #bb3b0c;border-right:1px solid #ddd;margin-top:15px;zoom:1}
+.shoes_list .tabHd li{background:#eff0e8;border-left:1px solid #ddd;text-align:center;float:left;font-size:18px;width:199px;height:33px;line-height:31px;position:relative;z-index:0}
+.shoes_list .tabHd li a{color:#888}
+.shoes_list .tabHd li.cur{border:none;width:199px}
+.shoes_list .tabHd li.cur a{background-position:0 -534px;position:absolute;top:-6px;left:0;width:199px;height:40px;font-size:20px;line-height:40px;color:#fff;z-index:9}
+.shoes_list .item{margin-left:-10px;margin-top:5px}
+.shoes_list .item ul{float:left;border:1px solid #e4e4e4;width:180px;padding:5px 5px 5px;text-align:center;margin-left:10px;display:inline}
+.shoes_list .item ul li{_display:inline;width:182px}
+.shoes_list .item ul img{margin:0; width:182px; height:182px; background:url(http://images.shopin.net/s/images/load.gif) no-repeat center center}
+.channel_shoes h2{border-bottom:3px solid #e85227;margin-bottom:2px;height:36px;overflow:hidden}
+.channel_shoes h2 em{background-position:0 -576px;float:left;margin-right:1px;width:54px;height:36px;text-align:center;color:#fff;line-height:35px;font-size:29px}
+.channel_shoes h2 span{background-position:right -532px;float:left;display:inline;font-size:18px;font-weight:bold;color:#fff;padding:3px 8px;border-top:4px solid #fff}
+.channel_shoes .list_ad{margin-left:-2px}
+.channel_shoes .list_ad ul li{border-left:2px solid #fff;border-bottom:2px solid #fff}
+.no-cart,.no-search{background:url(http://images.shopin.net/s/images/ico_nocart.gif) 275px 75px no-repeat #f5f5f5;border:1px solid #e2e2e2;padding:90px 0 95px;line-height:25px;margin:0 0 25px}
+.no-search{background:#f5f5f5;font-size:13px}
+/*promotion1*/
+.countdown{background:#f6f6f6;padding:6px 28px 6px 32px;border-top:1px solid #fff;line-height:29px;color:#000}
+.countdown .fr span{color:#e9480c;font-size:26px;vertical-align:middle;font-weight:bold;padding-right:3px}
+.countdown .fl span{display:inline-block;margin:0 6px;background-position:-13px -128px;background-color:#000;width:42px;height:29px;vertical-align:middle;font-size:24px;font-weight:bold;color:#fff;text-align:center}
+.promo-main{margin-left:-11px;margin-top:20px}
+.promo-main .list{background:#fff;border:3px solid #f6f6f6;width:488px;float:left;display:inline;margin-left:11px}
+.promo-main .list ul{background:url(http://images.shopin.net/s/images/bgi_promotion.gif) 0 0 repeat-x;border:1px solid #fff;padding:8px 0;color:#888;line-height:18px}
+.promo-main .list h2{border-bottom:2px solid #e4e4e4;position:relative;line-height:25px;height:25px;margin:0 11px}
+.promo-main .list h2 span{border-bottom:3px solid #fe7b03;position:absolute;bottom:-2px;left:0;font-size:14px;font-weight:bold;color:#fe7b03;padding:0 10px;line-height:28px}
+.promo-main .list h2 .more{font-family:宋体;font-weight:normal;padding-right:5px;color:#888}
+.promo-main .list h2 a:hover.more{color:#f60}
+.promo-main .list ul li{border-left:1px solid #ededed;float:left;width:152px;padding:5px;margin-left:-1px;margin-top:12px}
+.promo-main .list ul li img{margin-left:7px;margin-bottom:5px}
+.promo-main .list ul h3,.promo-main .list ul p.txt-gray,.promo-list .tabBd h3,.promo-list .tabBd p.txt-gray{height:20px;overflow:hidden}
+.promo-main .list ul h3 a{color:#000}
+.promo-main .list ul h3 a:hover{color:#e94609}
+.promo-main .list ul h3,.promo-main .list ul p{padding-left:7px}
+.promo-main .list strong{font-size:18px;color:#f00;font-weight:bold;padding-left:2px}
+.promo-list .tabHd{margin-bottom:5px;background:#f0f0f0;height:36px}
+.promo-list .tabHd li{float:left;width:165px;text-align:center;font-size:16px;line-height:36px;color:#6a6a6a;font-family:'microsoft yahei';background:url(http://images.shopin.net/s/images/line_promotion.gif) right center no-repeat;margin-left:-1px;position:relative}
+.promo-list .tabHd li.cur{background:#8DC6D1;color:#fff;font-weight:bold}
+.promo-list .tabHd li.cur a{color:#fff}
+.promo-list .tabHd li.cur i{position:absolute;top:36px;left:49%;margin-left:-5px;background-position:0 -116px;width:11px;height:5px;overflow:hidden}
+.promo-list .tabBd{padding:0}
+.promo-list .tabBd ul{margin-left:-10px;zoom:1}
+.promo-list .tabBd li{float:left;display:inline;width:192px;margin-left:10px;margin-top:10px;text-align:center;line-height:20px}
+.promo-list .tabBd li a img{border:1px solid #e4e4e4;margin-bottom:5px;width:190px;height:190px}
+.promo-list .tabBd li a:hover img{border:1px solid #ccc}
+.promo-list .tabBd del{color:#999;padding:0 8px}
+.promo-list .tabBd strong{font-size:15px;color:#f00}
+.promo-list .tabBd a.more{position:absolute;right:12px;top:0;margin-top:-32px;font-family:宋体;color:#f60}
+.promo-list .tabBd a:hover.more{color:#000}
+.promo-brand .title{border-top:3px solid #8dc6d1;margin-bottom:10px}
+.promo-brand h2{background:#f8f8f8;border-top:2px solid #fff;font-size:20px;color:#71bac6;font-family:'microsoft yahei';padding:0 13px 4px}
+.promo-brand .logo_list{margin-left:-10px}
+.promo-brand .logo_list li{float:left;display:inline;border:1px solid #E9E9E9;padding:4px;background:#f9f9f9;margin-bottom:8px;margin-left:10px}
+/*模糊搜索结果页*/
+.tipSearch{background:#fff7ef;border:1px solid #EDD28B;color:#333;padding:16px 25px;line-height:25px}
+.tipSearch .txt-red{padding:0}
+.tipSearch span{padding:0 6px}
+.tipSearch a{color:#005aa0}
+.tipSearch a:hover{color:#ff4700}
+/*尺码表*/
+.sizeTab{width:750px;border-left:1px solid #fff;border-top:1px solid #fff;font:500 13px/25px 'microsoft yahei';color:#666;text-align:center}
+.sizeTab td,.sizeTab th{border-right:1px solid #fff;border-bottom:1px solid #fff;padding:0 5px}
+.sizeTab th{background:#242424;white-space:nowrap;font-weight:600;color:#fff;}
+.sizeTab th.frt{background:#e94609;font-size:14px;padding:2px 5px}
+.sizeTab td.frt{color:#3a3a3a;font-weight:600;background:#fff}
+.sizeTab tr.b1{background:#e9e9e9}
+/*使用限制*/
+.tooltip{position:relative}
+.tooltip.hover span{display:block;position:absolute;background:#fff;border:1px solid #ddd;padding:6px 8px;z-index:9999;width:140px;text-align:left;color:#000; box-shadow:3px 3px 2px #eee}
+.tooltip span i{color:#e94609}

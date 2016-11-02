@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><bookStore>
+<book id="1">
+<name>犬夜叉</name>
+<author>高桥留美子</author>
+<year>2008</year>
+<price>200$</price>
+</book>
+<book>
+<name>唐人街探案</name>
+<author>陈思成</author>
+<year>2016</year>
+<price>VIP会员免费</price>
+</book>
+</bookStore>

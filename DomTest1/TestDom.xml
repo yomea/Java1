@@ -1,0 +1,12 @@
+<?xml version="1.0" encodeing="utf-8"?>
+<bookstore>
+	<book id="1">
+		<name>红楼梦</name>
+		<author>曹雪芹</author>
+		<year>1994</year>
+	</book>
+	<book id="2">
+		<name>西游记</name>
+		<author>罗贯中</author>
+	</book>
+</bookstore>
